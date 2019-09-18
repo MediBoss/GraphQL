@@ -9,3 +9,5 @@ Graphql is a new and alternative API standard that was invented and open-sourced
 
 * GraphQL enables declarative data fetching - client can specify which data they want exactly.
 * GraphQL only expose a single endpoint for all resources, unlike REST with many endpoints.
+* Less overfetching - downloading unessary data from the API
+* Less underfetching - endpoints that does not return enough data, need to make another request. 
